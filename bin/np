@@ -1,0 +1,6 @@
+#! /bin/bash
+
+pkg install nmap 
+clear
+read -p 'nmap: ' nmpc
+$nmapc

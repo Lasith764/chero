@@ -1,0 +1,4 @@
+#! /bin/bash
+
+printf"Ru.os"
+python osd.py 

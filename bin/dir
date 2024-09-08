@@ -1,0 +1,9 @@
+#! /bin/bash
+
+cd chero
+cd home
+read -p "file name[__]" dirc
+echo "mkdir $dirc">dirc.sh 
+bash dirc.sh
+rm -rf dirc.sh
+

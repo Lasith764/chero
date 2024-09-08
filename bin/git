@@ -1,0 +1,23 @@
+#! /bin/bash
+
+pkg install git
+clear
+read -p 'git clone link[http://___.git]: ' gitc
+cd
+cd chero
+cd home
+echo "git clone $gitc">gitc.sh 
+bash gitc.sh
+
+printf"\033[0;32Done"
+rm -rf gitc.sh 
+
+printf("installing.")
+printf("installing..")
+printf("installing....")
+printf("installing.....")
+printf("installing........")
+time.sleep 0.32
+clear
+
+
